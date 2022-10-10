@@ -515,6 +515,7 @@ body {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
+
 @media (max-width: 991px) {
   .Skills .Skills-content {
     display: block;
@@ -530,6 +531,11 @@ body {
   .Skills .Skills-content .progress .box-skills {
     margin: 10px;
     padding: 20px;
+    display: block;
+  }
+  .Skills .Skills-content .progress .box-skills .skill-name {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 /* End Skills */
